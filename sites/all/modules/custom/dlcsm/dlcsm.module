@@ -1,0 +1,12 @@
+<?php
+/**
+ * @file
+ * Provides functionality for dlcsm module
+ */
+
+/**
+ * Implements hook_help().
+ */
+function dlcsm_help() {
+
+}

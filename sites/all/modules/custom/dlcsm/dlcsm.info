@@ -1,0 +1,3 @@
+name = driftlikeclouds Song Manager
+description = Manages the entire driftlikeclouds catalogue.
+core = 7.x
