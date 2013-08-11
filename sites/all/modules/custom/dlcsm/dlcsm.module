@@ -7,6 +7,12 @@
 /**
  * Implements hook_help().
  */
-function dlcsm_help() {
-
+function dlcsm_help($path, $arg) {
+  switch ($path) {
+    case 'admin/help#dlcsm':
+      $out = '<h3>' . t('About') . '</h3>';
+      $out .= '<p>' . t('Allows you to categorize the entire driftlikeclouds library') . '</p>';
+      return $out;
+      break;
+  }
 }
